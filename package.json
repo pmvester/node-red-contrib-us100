@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-us100",
+  "version": "0.0.1",
+  "description": "A Node-RED node for the Ultrasonics US-100 proximity sensor.",
+  "dependencies": {
+    "pigpio": "0.4.*"
+  },
+  "node-red": {
+    "nodes": {
+      "us100": "us100.js"
+    }
+  },
+  "main": "us100.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmvester/node-red-contrib-us100"
+  },
+  "keywords": [
+    "us100"
+  ],
+  "author": "Mikael Vester",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmvester/node-red-contrib-us100/issues"
+  }
+}
